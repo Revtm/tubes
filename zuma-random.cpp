@@ -17,6 +17,8 @@ void printQ(queue <char> *Q){
         (*Q).pop();
     }
     gotoxy(10,4);cout << "-------------------" << endl;
+    gotoxy(10,5);cout << "tekan apa saja untuk menghasilkan list random" << endl;
+    gotoxy(10,6);cout << "tekan q untuk keluar" << endl;
 
     //gotoxy(10,6); cout <<"Tebak angka: ";
     // cin >> x;
